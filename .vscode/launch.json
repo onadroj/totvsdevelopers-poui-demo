@@ -6,7 +6,7 @@
 			"request": "launch",
 			"name": "Smart Client Debug",
 			"program": "${command:AskForProgramName}",
-			"smartclientBin": "C:/TOTVS12/Protheus/Protheus/bin/smartclient/smartclient.exe",
+			"smartclientBin": "C:/totvs/bin/smartclient/smartclient.exe",
 			"cwb": "${workspaceFolder}",
 			"isMultiSession": true,
 			"enableTableSync": true,

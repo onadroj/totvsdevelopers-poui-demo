@@ -1,6 +1,6 @@
 const PROXY_CONFIG = {
   "/api": {
-      "target": "http://localhost:9999/app-root",
+      "target": "http://localhost:1234/app-root",
       "secure": false,
       "bypass": function (req, res, proxyOptions) {
           req.headers["Authorization"] = "Basic YWRtaW46IA==";
